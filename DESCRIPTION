@@ -1,0 +1,23 @@
+Package: altgpu
+Type: Package
+Title: ALTREP-Backed GPU-Enabled Vectors and Matric
+Version: 0.1.0
+Authors@R: 
+    person(
+      given  = "Ziyad", 
+      family = "AlBanoby", 
+      email  = "ziyad.albanoby@bsc.es", 
+      role   = c("aut", "cre")
+    )
+Description: Add Later
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+SystemRequirements: CUDA (>= 10.0)
+Depends: 
+    R (>= 3.6.0)
+Imports: 
+    Rcpp (>= 1.0.0)
+LinkingTo: 
+    Rcpp

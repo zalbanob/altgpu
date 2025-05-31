@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/../../ENVS/r-environment/lib/R/include",
+                "/apps/ACC/NVIDIA-HPC-SDK/25.1/Linux_x86_64/25.1/cuda/include",
+                "${workspaceFolder}/../../ENVS/r-environment/lib/R/library/Rcpp/include"
+            ],
+            "defines": [],
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
